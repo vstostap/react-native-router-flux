@@ -104,7 +104,8 @@ Now you can access the current scene from any connected component.
 
 ```jsx
 // components/MyComponent.js
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Text } from 'react-native';
 import { connect } from 'react-redux';
 
